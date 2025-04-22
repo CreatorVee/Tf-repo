@@ -9,6 +9,8 @@ module "eks" {
   subnet_ids = module.myapp-vpc.private_subnets
   vpc_id = module.myapp-vpc.vpc_id
 
+  # add the following line if you are using EKS module 20.1.0+ - enable_cluster_creator_admin_permissions = true  
+
   tags = {
     environment = "development"
     application = "myapp"
