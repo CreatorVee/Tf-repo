@@ -1,8 +1,8 @@
-# ☁️ Infrastructure as Code with Terraform – AWS Automation
+#  Infrastructure as Code with Terraform – AWS Automation
 ## EVERYTHING WRITTEN HERE IS AN AUTHENTIC  SIMPLE FORM OF MY NOTEBOOK 
 <div style="border-top: 2px solid black; margin: 20px 0;"></div>
 
-## 📌 Project Overview
+##  Project Overview
 **Demo Project:**  
 Automate AWS Infrastructure provisioning and deployment using Terraform.  
 
@@ -11,7 +11,7 @@ Automate AWS Infrastructure provisioning and deployment using Terraform.
 
 <div style="border-top: 2px solid black; margin: 20px 0;"></div>
 
-## 🎯 Project Goals
+##  Project Goals
 - Provision AWS infrastructure automatically instead of manual configuration.
 - Modularize Terraform scripts for reusability.
 - Configure AWS S3 for **remote shared Terraform state**.
@@ -60,7 +60,7 @@ Automate AWS Infrastructure provisioning and deployment using Terraform.
    
   <div style="border-top: 2px solid black; margin: 20px 0;"></div>
 
-   📚 What I Learned
+    What I Learned
 Terraform Basics: Declarative infrastructure management, reusable variables, .tfvars usage.
 
 AWS Integration: Understanding VPCs, subnets, EC2, security groups.
@@ -84,7 +84,7 @@ Terraform State Conflicts: Resolved by resetting state files and using remote st
 
 --
 
-🔮 Next Steps & Improvements
+ Next Steps & Improvements
 Fix provisioning configuration for EKS deployment stage.
 
 Add Helm integration for Kubernetes deployments.
