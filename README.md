@@ -1,4 +1,4 @@
-#  Infrastructure as Code with Terraform – AWS Automation
+# 🔄   Infrastructure as Code with Terraform – AWS Automation
 ## EVERYTHING WRITTEN HERE IS AN AUTHENTIC  SIMPLE FORM OF MY NOTEBOOK 
 <div style="border-top: 2px solid black; margin: 20px 0;"></div>
 
@@ -23,7 +23,7 @@ Automate AWS Infrastructure provisioning and deployment using Terraform.
 
 <div style="border-top: 2px solid black; margin: 20px 0;"></div>
 
-##  Project Goals
+## 🎯 Project Goals
 - Provision AWS infrastructure automatically instead of manual configuration.
 - Modularize Terraform scripts for reusability.
 - Configure AWS S3 for **remote shared Terraform state**.
@@ -32,7 +32,7 @@ Automate AWS Infrastructure provisioning and deployment using Terraform.
 
 <div style="border-top: 2px solid black; margin: 20px 0;"></div>
 
-##  Project Components
+## 📂   Project Components
 1. **AWS Infrastructure Automation**
    - VPC, Subnets, Route Tables, Internet Gateways.
    - EC2 instances with Security Groups.
@@ -53,7 +53,7 @@ Automate AWS Infrastructure provisioning and deployment using Terraform.
 
 <div style="border-top: 2px solid black; margin: 20px 0;"></div>
 
-##  How It Works
+##  🔄  How It Works
 1. **Terraform Providers**
    - AWS provider acts as the "translator" between Terraform and AWS.
    - Terraform config file defines **what** to build, AWS provider makes it happen.
@@ -72,7 +72,7 @@ Automate AWS Infrastructure provisioning and deployment using Terraform.
    
   <div style="border-top: 2px solid black; margin: 20px 0;"></div>
 
-#    What I Learned
+# 📚   What I Learned
 
 Terraform Basics: Declarative infrastructure management, reusable variables, .tfvars usage.
 
@@ -86,7 +86,7 @@ Security Best Practices: Never hardcode secrets, use variables and .tfvars.
 
 --
 
-# Challenges & Issues Faced
+#  ❌  Challenges & Issues Faced
 
 Provisioning Stage Stuck: Jenkins could create the EC2 instance, but application deployment step failed.
 
@@ -98,7 +98,7 @@ Terraform State Conflicts: Resolved by resetting state files and using remote st
 
 --
 
- # Next Steps & Improvements
+ # ✅  Next Steps & Improvements
  
 Fix provisioning configuration for EKS deployment stage.
 
@@ -110,7 +110,7 @@ Add automated Terraform testing (using terraform validate & terraform fmt).
 
 ---
 
-# Photo evidence 
+# 📸 Photo evidence 
 **Via Jenkins**
 
 <img width="1920" height="945" alt="2025-09-11_10h31_43" src="https://github.com/user-attachments/assets/87bad24f-99b3-40a2-a81b-d7d2eb4bd6be" />
